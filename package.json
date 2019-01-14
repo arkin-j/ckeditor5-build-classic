@@ -1,6 +1,6 @@
 {
   "name": "@arkin-j/ckeditor5-build-classic",
-  "version": "11.2.0",
+  "version": "11.2.1",
   "description": "私有的The classic editor build of CKEditor 5 – the best browser-based rich text editor.",
   "keywords": [
     "ckeditor5-build",
@@ -82,5 +82,8 @@
   "eslintIgnore": [
     "build/**",
     "packages/**"
-  ]
+  ],
+  "dependencies": {
+    "@ckeditor/ckeditor5-alignment": "^10.0.4"
+  }
 }
